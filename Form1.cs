@@ -29,13 +29,13 @@ namespace Калькулятор
                 ////1СЕДЯЧИЙ//////////////////////////////////////////////////////////////////////////
                 if (zis.Text == "Седячий, малоподвижный")
                 {
-                    double A = 1.2;
+                    double A = 1.3;
                     double z = (10 * ve + 6.25 * ros - 5 * vo - 161) * A; //женский нормы калори
                     double B = Math.Round((z * 0.4) / 4, 2);
                     double Z = Math.Round((z * 0.2) / 9, 2);
                     double Y = Math.Round((z * 0.4) / 4, 2);
-                    string[] co = { "  Диапазон калорий : " + "" };
-                    lis.Items.AddRange(co);
+                    string[] er = { "  Диапазон калорий : " + "" };
+                    lis.Items.AddRange(er);
                     string[] c = { "  суточная норма белка - " + B + " грамм;" };
                     lis.Items.AddRange(c);
                     string[] tries = { "  суточная норма жиров - " + Z + " грамм;" };
